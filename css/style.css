@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+a.navbar-brand > img.brand-sony {
+    height: 20%;
+    width: 50px;
+}
+
