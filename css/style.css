@@ -8,4 +8,122 @@ a.navbar-brand > img.brand-sony {
     height: 20%;
     width: 50px;
 }
+/* 
+img.brand-sony {
+    width: 100%;
+    height: 100%;
+} */
 
+#navbar-right {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.jumbotron {
+    height: 500px;
+}
+
+.jumbo-img {
+    height:100%;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+}
+
+.text-jumbo {
+    position: absolute;
+    bottom: 10%;
+    padding: 30px;
+    width: 35%;
+}
+
+
+.text-jumbo span > img  {
+    height: 30px;
+}
+
+section.jumbotron .jumbo-img button {
+    position: absolute;
+    bottom: 0%;
+    margin-left: 30px;
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+}
+
+section.main-top button {
+    padding: 2px;
+background: white;
+border-radius: 20px;
+}
+
+section.main-top button img {
+    height: 80px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.img-playstation5 > img {
+    width: 100%;
+}
+
+.console-btm {
+    height: 200px;
+    width: 200px;
+}
+
+.console-btm img {
+    margin: 0% auto;
+}
+
+.console-btm img,span {
+    display: block;
+    text-align: center;
+}
+
+.console-btm:hover {
+    border-bottom: 3px solid rgb(33, 77, 221) ;
+    filter: opacity(0.5);
+}
+
+.jumbotron2 {
+    height: 100%;
+    width: 100%;
+}
+
+.jumbo-img2 {
+    height: 100%;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+
+.jumbo-img2 img {
+   width: 200px;
+}
+
+.jumbo-img2 h2 {
+    width: 35%;
+}
+
+.main-bottom {
+object-fit: cover;
+border-radius: 20px;
+}
+
+
+section.main-bottom button {
+padding: 2px;
+background: white;
+border-radius: 20px;
+}
+
+section.main-bottom button img {
+    height: 130px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 20px;
+}

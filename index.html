@@ -5,52 +5,293 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
-    <title>MyPlastation</title>
+    <title>MyPlaystation</title>
 </head>
 <body>
     <header>
         <nav class="navbar sticky-top navbar-light bg-dark">
             <div class="container-fluid d-flex justify-content-end ">
-              <a class="navbar-brand" href="#"><img class="brand-sony" src="./img/sony_logo.svg" alt=""></a>
+              <a class="navbar-brand h-100" href="#"><img class="brand-sony h-100" src="./img/sony_logo.svg" alt=""></a>
             </div>
           </nav>
 
-          <ul class="nav">
+
+<div class="d-flex">
+          <ul class="nav align-items-baseline col-lg-7">
             <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#"><img src="./img/play_logo.svg" alt=""></a>
               </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Giochi</a>
+              <a class="nav-link active dropdown-toggle text-dark" aria-current="page" href="#">Giochi</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Hardware</a>
+              <a class="nav-link dropdown-toggle text-dark" href="#">Hardware</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Servizi</a>
+              <a class="nav-link dropdown-toggle text-dark" href="#">Servizi</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Novità</a>
+              <a class="nav-link active dropdown-toggle text-dark" href="#" tabindex="-1" aria-active="true">Novità</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Fai acquisti</a>
+                <a class="nav-link active dropdown-toggle text-dark" href="#" tabindex="-1" aria-active="true">Fai acquisti</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Supporto</a>
+                <a class="nav-link active dropdown-toggle text-dark" href="#" tabindex="-1" aria-active="true">Supporto</a>
               </li>
 
+            </ul>
+            
+              <ul id="navbar-right" class="nav align-align-items-baseline col-lg-5">
 
               <li class="nav-item">
-                <a class="nav-link disabled dropdown-toggl" href="#" tabindex="-1" aria-disabled="true">Supporto</a>
+                <a class="nav-link active dropdown-toggle text-dark" href="#" tabindex="-1" aria-active="true">MyPlaystation</a>
               </li>
 
+              <li class="nav-item">
+                <a class="nav-link active " href="#" tabindex="-1" aria-active="true"><button type="button" class="btn  bg-dark rounded-pill fw-bold text-light">Accedi</button></a>
+              </li>
 
+              
+              <li class="nav-item">
+                <a class="nav-link active " href="#" tabindex="-1" aria-active="true"><button type="button" class="btn btn-link"><i class="fas fa-search"></i></button></a>
+              </li>
 
+            </ul>
 
-          </ul>
-
+   
+        </div>
           
     </header>
+
+    <section class="jumbotron">
+
+        <div class="jumbo-img">
+            
+<div class="text-jumbo">
+    <span>
+       <img src="./img/returnal-hero-banner-logo.png" alt="">
+        </span>
+        
+        <h2 class="text-light my-3 fs-1">
+        Rompi il cerchio
+        </h2>
+
+        <span class="text-light text-start">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5</span>
+
+    </div>
+
+
+   
+    <button type="button" class="btn btn-warning rounded-pill fw-bold">Acquista ora</button>
+        </div>
+
+       
+
+    </section>
+
+    <main>
+
+
+<section class="main-top  justify-content-around d-flex p-4">
+
+    <button class="btn btn-primary" type="submit"><img src="./img/returnal-listing-thumb-01-ps5.jpg" alt=""></button>
+
+    <button class="btn btn-primary" type="submit"><img src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></button>
+
+    <button class="btn btn-primary" type="submit"><img src="./img/returnal-listing-thumb-01-ps5.jpg" alt=""></button>
+
+    <button class="btn btn-primary" type="submit"><img src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></button>
+
+    <button class="btn btn-primary" type="submit"><img src="./img/returnal-listing-thumb-01-ps5.jpg" alt=""></button>
+
+    <button class="btn btn-primary" type="submit"><img src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""></button>
+
+
+
+</section>
+
+
+
+<section class="nolimits d-flex justify-content-center pb-5 pt-5">
+
+    <div>
+        <p class="text-primary text-center mb-0">
+            PLAY HAS NO LIMITS
+        </p>
+
+        <p class="text-dark fs-2 text-center fw-bold">
+           Ecco la Playstation 5
+        </p>
+
+        <p class="text-secondary text-center">
+            Tuffati in nuove possibilità di gioco completamente  inaspettate
+         </p>
+    </div>
+
+</section>
+
+<section class="d-flex justify-content-center align-items-center pb-5 pt-5">
+
+    <div>
+        <p class="text-primary text-dark mb-0 fs-2 ">
+            Console Playstation 5
+        </p>
+
+        <p class="text-secondary fw-bold py-4">
+          Sperimenta la nuova generazione di incredibili giochi Playstation
+        </p>
+
+        <button type="button" class="btn btn-primary rounded-pill">Maggiori informazioni</button>
+    </div>
+
+    <div class="col-6 img-playstation5">
+        <img src="./img/playstation-5-thumb.png" alt="">
+    </div>
+
+</section>
+
+<section class="d-flex justify-content-center align-items-center pb-5 pt-5">
+
+    <div class="d-flex">
+
+        <div class="console-btm">
+
+            <img class="w-50" src="./img/playstation-5-thumb.png" alt="">
+<span>Console PS5</span>
+
+        </div>
+
+        
+        <div class="console-btm">
+
+            <img class="w-50" src="./img/joypad-thumb.png" alt="">
+            <span>Controller wireless DualSense</span>
+        </div>
+
+        <div class="console-btm">
+
+            <img class="w-50" src="./img/headset-thumb.png" alt="">
+            <span>Cuffie wireless con microfono PULSE 3</span>
+        </div>
+
+        <div class="console-btm">
+
+            <img class="w-50" src="./img/remote-thumb.png" alt="">
+            <span>Telecomando Media</span>
+        </div>
+
+        <div class="console-btm">
+
+            <img class="w-50" src="./img/camera-thumb.jpg" alt="">
+            <span>Telecamera HD</span>
+        </div>
+
+
+
+    </div>
+      
+</section>
+
+<section class="jumbotron2">
+    
+       <div class="jumbo-img2">
+            
+        <div class="text-jumbo2">
+            
+               <img  src="./img/it-takes-two-logo.png" alt="">
+                
+                
+                <h2 class="text-light my-3 fs-1">
+               Un'avventura cooperativa selvaggia ti attende
+                </h2>
+        
+                <span class="text-light w-25 text-start">Trova un amico e partite insieme per l'avventura più folle delle vostre vite in It Takes Two, un gioco d'avventura cooperativa a piattaforme che svolge il suo genere</span>
+        
+            </div>
+
+            <button type="button" class="btn btn-warning rounded-pill fw-bold text-light my-4">Acquista ora</button>
+        </div>
+</section>
+
+<div class="px-5 text-light bg-dark">
+    <h3>Nuove uscite</h3>
+    <p class="mb-0">Giochi incredibili per PS4 e PS5 disponibili ora</p>
+</div>
+
+<div class="row bg-dark">
+
+<section class="main-bottom justify-content-around d-flex p-4">
+
+    <div>
+        <button class="btn btn-primary" type="submit"><img src="./img//tony-hawks-pro-skater-1-2-store-art.jpg" alt=""></button>
+        <span class="text-light">Tony Hawk's ™ Pro</span>
+    </div>
+  
+<div>
+    <button class="btn btn-primary" type="submit"><img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt=""></button>
+    <span class="text-light">Crash Bandicoot 4:It's</span>
+</div>
+
+    <div>
+        <button class="btn btn-primary" type="submit"><img src="./img//tony-hawks-pro-skater-1-2-store-art.jpg" alt=""></button>
+        <span class="text-light">Tony Hawk's ™ Pro</span>
+    </div>
+
+    <div>
+        <button class="btn btn-primary" type="submit"><img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt=""></button>
+        <span class="text-light">Crash Bandicoot 4:It's</span>
+    </div>
+
+    <div>
+        <button class="btn btn-primary" type="submit"><img src="./img//tony-hawks-pro-skater-1-2-store-art.jpg" alt=""></button>
+        <span class="text-light">Tony Hawk's ™ Pro</span>
+    </div>
+
+ <div>
+    <button class="btn btn-primary" type="submit"><img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt=""></button>
+    <span class="text-light">Crash Bandicoot 4:It's</span>
+</div>
+
+</section>
+
+<section class="main-bottom justify-content-around d-flex p-4">
+    <div>
+        <button class="btn btn-primary" type="submit"><img src="./img//tony-hawks-pro-skater-1-2-store-art.jpg" alt=""></button>
+        <span class="text-light">Tony Hawk's ™ Pro</span>
+    </div>
+  
+<div>
+    <button class="btn btn-primary" type="submit"><img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt=""></button>
+    <span class="text-light">Crash Bandicoot 4:It's</span>
+</div>
+
+    <div>
+        <button class="btn btn-primary" type="submit"><img src="./img//tony-hawks-pro-skater-1-2-store-art.jpg" alt=""></button>
+        <span class="text-light">Tony Hawk's ™ Pro</span>
+    </div>
+
+    <div>
+        <button class="btn btn-primary" type="submit"><img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt=""></button>
+        <span class="text-light">Crash Bandicoot 4:It's</span>
+    </div>
+
+    <div>
+        <button class="btn btn-primary" type="submit"><img src="./img//tony-hawks-pro-skater-1-2-store-art.jpg" alt=""></button>
+        <span class="text-light">Tony Hawk's ™ Pro</span>
+    </div>
+
+ <div>
+    <button class="btn btn-primary" type="submit"><img src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt=""></button>
+    <span class="text-light">Crash Bandicoot 4:It's</span>
+</div>
+
+</div>
+</section>
+
+    </main>
     
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
