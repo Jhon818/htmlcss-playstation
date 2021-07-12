@@ -24,7 +24,8 @@
     position: relative;
     height:100%;
     background-image: url(../img/jumbo-bg.png);
-    background-size: auto;
+    background-size: cover;
+    background-position: center;
 }
 
 .text-jumbo {
@@ -98,6 +99,7 @@ section.main-top button img {
     background-size: auto;
     padding-left: 50px;
     padding-top: 20px;
+    background-position: center;
 }
 
 
