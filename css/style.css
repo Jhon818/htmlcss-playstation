@@ -68,10 +68,7 @@ section.main-top button img {
 
 
 
-.console-btm {
-    height: 200px;
-    width: 200px;
-}
+
 
 .console-btm img {
     margin: 0% auto;
@@ -139,16 +136,9 @@ section.main-bottom button img {
     border-radius: 20px;
 }
 
-section.psplus div > img {
-    float: right;
-}
 
-.psplus button {
-    padding: 5px;
-    width: 200px;
-    border-radius: 20px;
-    color: lightseagreen;
-}
+
+
 
 .now {
     background-color: rgb(10, 10, 85);
