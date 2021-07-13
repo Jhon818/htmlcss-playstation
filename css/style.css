@@ -32,7 +32,6 @@
     position: absolute;
     bottom: 10%;
     padding: 30px;
-    width: 35%;
 }
 
 
@@ -50,14 +49,15 @@ section.jumbotron .jumbo-img button {
 }
 
 section.main-top button {
+width: 160px;
 padding: 2px;
-background: white;
 border-radius: 20px;
+background-color: white;
 }
 
 section.main-top button img {
-    height: 80px;
     width: 150px;
+    height: 100px;
     object-fit: cover;
     border-radius: 20px;
 }
@@ -66,9 +66,7 @@ section.main-top button img {
     display: flex;
 }
 
-.img-playstation5 > img {
-    width: 100%;
-}
+
 
 .console-btm {
     height: 200px;
@@ -77,16 +75,29 @@ section.main-top button img {
 
 .console-btm img {
     margin: 0% auto;
+    filter: opacity(0.5);
 }
 
 .console-btm img,span {
-    text-align: left;
     display: inherit;
 }
 
-.console-btm:hover {
+.console-btm:hover{
     border-bottom: 3px solid rgb(33, 77, 221) ;
-    filter: opacity(0.5);
+    color: black;
+}
+
+.console-btm:hover img,span{
+    filter: none;
+}
+
+.console-btm:hover span {
+    color: black;
+}
+
+.console-btm span {
+    text-align: center;
+    color: grey;
 }
 
 .jumbotron2 {
@@ -96,7 +107,7 @@ section.main-top button img {
 
 .jumbo-img2 {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    background-size: auto;
+    background-size: cover;
     padding-left: 50px;
     padding-top: 20px;
     background-position: center;
@@ -107,9 +118,7 @@ section.main-top button img {
    width: 200px;
 }
 
-.jumbo-img2 h2 {
-    width: 35%;
-}
+
 
 .main-bottom {
 object-fit: cover;
@@ -152,32 +161,35 @@ section.psplus div > img {
 
 
 ul {
-    width: 100px;
-    padding: 100px;
-    margin: 20px;
     list-style-type: none;
 }
 
 ul li {
-    width: 100px;
+   padding-top: 10px;
 }
 
 
-/* @media screen and (min-width:576px) {
-    
-.social{
-    width: 100%;
+@media screen and (max-width:768px) {
+ 
+    .psplus img:last-child {
+        display: none;
+    }
+
+    .console-btm span {
+        display: none;
+    }
+
 }
 
-} */
+
 
 
 @media screen and (max-width:720px){
     
 
-section.main-bottom div {
+/* section.main-bottom div {
    display: flex;
-}
+} */
 
 #ps4-content {
     display: inline-block;
@@ -193,16 +205,5 @@ section.psplus div.avengers img {
 }
 
 
-.nuovisconti {
-    display: flex;
-    }
-    
-
 }
 
-@media screen and (min-width:1400px){
-    
-        .nuovisconti {
-            display: inline-block;
-            }
-    }
